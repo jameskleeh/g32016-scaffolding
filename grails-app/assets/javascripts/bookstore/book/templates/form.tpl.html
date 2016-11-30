@@ -1,0 +1,12 @@
+<div class="form-group">
+  <label for="author">Author</label>
+  <select required="" name="author" id="author" ng-model="vm.book.author" class="form-control" ng-options="author for author in vm.authorList track by author.id"></select>
+</div>
+<div class="form-group">
+  <label for="published">Published</label>
+  <input required="" name="published" id="published" ng-model="vm.book.published" class="form-control" type="date" placeholder="YYYY-MM-DD" />
+</div>
+<div class="form-group">
+  <label for="title">Title</label>
+  <input required="" name="title" id="title" ng-model="vm.book.title" class="form-control" type="text" />
+</div>
